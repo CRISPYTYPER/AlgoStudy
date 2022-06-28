@@ -1,0 +1,5 @@
+amount = int(input())
+arr = list(map(int, input().split()))
+# print(arr)
+arr.sort()
+print(arr[0]*arr[len(arr)-1])
