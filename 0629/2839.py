@@ -1,7 +1,6 @@
 n = int(input())
 def get_count(n):
     five_mok = n // 5
-    n_temp = n
     if(n%5==0):
         return(five_mok)
     while(five_mok >= 0): # 5로 나눈 몫이 0이 될때 까지 반복
